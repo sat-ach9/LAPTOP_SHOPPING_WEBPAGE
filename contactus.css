@@ -1,0 +1,59 @@
+#contact {
+    width: 75%;
+}
+
+#contact #contact_page .cl_1 {
+    padding: 35px 20px 0px 20px;
+}
+
+#contact #contact_page .logo_disc {
+    margin-bottom: 30px;
+}
+
+#contact #contact_page .logo_disc {
+    /* margin-bottom: 40px; */
+    margin: 0px 40px 40px 40px;
+    padding: 10px;
+    width: 190px;
+}
+
+#contact #contact_page .logo_disc i {
+    font-size: 40px;
+    padding: 10px 0px;
+}
+
+#contact #contact_page .logo_disc p {
+    padding-top: 10px;
+    margin: 0%;
+}
+
+#contact #contact_page .f_in {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 50px;
+    padding: 10px;
+}
+
+#contact #contact_page .p_field {
+    padding: 17px 25px;
+}
+
+#contact #contact_page .p_field #msg {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#contact #contact_page .feedback {
+    padding: 30px 25px 10px 25px;
+}
+
+#contact #contact_page #send {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 50px;
+}
+
+#contact #contact_page #send:hover {
+    background-color: rgb(50, 172, 50);
+}

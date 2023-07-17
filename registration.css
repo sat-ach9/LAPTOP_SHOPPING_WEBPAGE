@@ -1,0 +1,66 @@
+#registration .f_field {
+  padding: 20px;
+  align-items: center;
+}
+
+#registration .f_field.shake {
+  animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    margin-left: 0px;
+  }
+  20%,
+  80% {
+    margin-left: -12px;
+  }
+  40%,
+  60% {
+    margin-left: 12px;
+  }
+}
+
+#registration .f_field label {
+  color: red;
+  font-size: larger;
+}
+
+#registration .f_field .f_in {
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 50px;
+}
+
+#registration .f_field .sign_up {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+}
+
+#registration .f_field .sign_up:hover {
+  background-color: rgb(50, 172, 50);
+}
+
+.form_field.error .f_in {
+  border-color: #fd5949;
+}
+
+.form_field.success .f_in {
+  border-color: lawngreen;
+}
+
+.form_field .msg {
+  display: none;
+}
+
+.form_field.error .msg {
+  display: inline;
+  color: #fd5949;
+}
+
+.form_field.success .msg {
+  display: none;
+}

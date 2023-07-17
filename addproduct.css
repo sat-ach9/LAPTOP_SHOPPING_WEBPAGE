@@ -1,0 +1,39 @@
+#registration .f_field {
+    padding: 20px;
+    align-items: center;
+}
+
+#registration .f_field label {
+    color: red;
+    font-size: larger;
+}
+
+#registration .f_field .f_in {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 50px;
+}
+
+#registration .f_field .sign_up {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 950px;
+    height: 35px;
+}
+
+#registration .file {
+    padding: 5px 20px;
+    align-items: center;
+}
+
+#registration .f_file .f_in {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 50px;
+}
+
+#registration .f_field .sign_up:hover {
+
+    background-color: rgb(50, 172, 50);
+
+}

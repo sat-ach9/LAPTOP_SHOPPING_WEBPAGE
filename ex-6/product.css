@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root {
+    --bg-color: white;
+    --text-color: #000000;
+    --main-color: #d61b3c;
+}
+
+* {
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.header .p-0 .navbar i {
+    color: var(--text-color);
+}
+
+.header #logo {
+    padding-left: 50px;
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+.header #navbarCollapse {
+    padding-right: 20px;
+}
+
+.header #search_box {
+    width: 350px;
+}
+
+.header #search_i {
+    padding: 0px 15px;
+}
+
+.header .btn {
+    padding: 2px;
+}
+
+.header #nav_bar {
+    background-color: var(--main-color);
+}
+
+.header .n1:hover {
+    color: var(--main-color);
+}
+
+

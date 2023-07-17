@@ -1,0 +1,168 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/* návbar *******************************************************************************/
+
+#logo {
+  padding-left: 48px;
+}
+
+#logo img {
+  width: 213px;
+  height: 62px;
+}
+
+/* #nav {
+    padding: 0px 12px;
+} */
+
+/* #search {
+    padding: 0px 50px;
+} */
+
+#search_i {
+  font-size: 25px;
+  text-decoration: none;
+  color: red;
+  margin-left: -40px;
+}
+
+#search {
+  padding-right: 40px;
+}
+
+#search_box {
+  width: 550px;
+  height: 50px;
+  padding: 2px 10px;
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+#navbarCollapse .na_1 {
+  font-size: 25px;
+  padding: 0px 20px;
+  margin: 0px 20px;
+  color: red;
+  transition: font-size 0.5s;
+}
+
+#navbarCollapse .na_1:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  font-size: 28px;
+}
+
+.nav_2:hover {
+  border: none;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+/* section-1 ************************************************************************************/
+
+/* #lp_2 { */
+/* background-color: red; */
+/* } */
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: yellow;
+} */
+
+#lp_2 .img_s .img_si {
+  width: 1400px;
+  height: 650px;
+}
+
+/* .button_icon {
+    background-color: red;
+} */
+
+/* section-2 **************************************************************************/
+
+#lp_3 i {
+  font-size: 55px;
+}
+
+#lp_3 .services:hover {
+  border: 4px solid red;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px whitesmoke;
+}
+
+/* section-3 **********************************************************************/
+
+#lp_4 .img_s {
+  padding: 0px 60px;
+}
+
+#lp_4 .img_s .best .img_si {
+  width: 350px;
+  height: 290px;
+}
+
+#lp_4 .img_s .best p {
+  width: 350px;
+}
+
+#lp_4 .img_s .best .best_one {
+  border: 1px solid black;
+  border-radius: 13px;
+}
+
+/* footer *****************************************************************************/
+
+#s_footer #sf2 {
+  font-size: 23px;
+}
+
+#s_footer #sf2 a {
+  transition: font-size 0.5s;
+}
+
+#s_footer #sf2 a :hover {
+  font-size: 25px;
+}
+
+#s_footer hr {
+  margin-top: 6px 0px;
+}
+
+#insta {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form_field.error .f_in {
+  border-color: #fd5949;
+}
+
+.form_field.success .f_in {
+  border-color: lawngreen;
+}
+
+.form_field .msg {
+  display: none;
+}
+
+.form_field.error .msg {
+  display: inline;
+  color: #fd5949;
+}
+
+.form_field.success .msg {
+  display: none;
+}

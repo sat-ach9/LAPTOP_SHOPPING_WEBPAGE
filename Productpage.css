@@ -1,0 +1,29 @@
+#lp_opt #opts .pn_x{
+    width: 300px;
+    height:280px;
+}
+
+#opts .info{
+    padding: 12px 50px;
+    width: 700px ;
+}
+
+#opts .info p{
+    font-size: 20px;
+}
+
+#opts #btnn .bttn{
+    padding: 28px;
+
+}
+
+#opts #btnn .bttn #udt{
+    width: 150px;
+    border: 1px solid black ;
+}
+
+#opts #btnn .bttn #udt:hover {
+    /* width: 150px; */
+    border: 1px solid red;
+    color: red;
+}
